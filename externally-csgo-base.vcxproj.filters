@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="offsets\offsets.hpp">
+      <Filter>offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="csgosdk\c_base_entity.h">
+      <Filter>csgosdk</Filter>
+    </ClInclude>
+    <ClInclude Include="csgosdk\c_engine.h">
+      <Filter>csgosdk</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.hpp" />
+    <ClInclude Include="csgosdk\structures.hpp">
+      <Filter>csgosdk</Filter>
+    </ClInclude>
+    <ClInclude Include="main.hpp" />
+    <ClInclude Include="utilities\utilities.hpp">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\directx.h">
+      <Filter>directx</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="offsets">
+      <UniqueIdentifier>{f034d658-eca6-480e-88b7-1aaa74d13eca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="csgosdk">
+      <UniqueIdentifier>{30c908f6-8a5f-4530-8e4c-41f8056d0e96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utilities">
+      <UniqueIdentifier>{5459f20c-4925-45e6-a15a-11af7537a127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="directx">
+      <UniqueIdentifier>{7b4ebc30-433d-48fa-808a-15d2f5c25e77}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
